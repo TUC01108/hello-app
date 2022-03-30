@@ -22,5 +22,10 @@ public class HelloAppApplication {
 	public String sayBye() {
 		return "Bye My Friend";
 	}
+	
+	@GetMapping("/sayCongrats")
+	public String sayCongrats() {
+		return "Congrats My Friend";
+	}
 
 }
